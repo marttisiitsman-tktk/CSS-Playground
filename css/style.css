@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Freeman&display=swap');
+
+body { 
+    background-color: rgb(197, 193, 188);
+}
+
+.heading {
+    text-align: center;
+}
+
+.playground-heading { 
+    color:darkcyan;
+    font-family: "Danfo", serif;
+    font-size: 6rem;
+}
+
+.main {
+    border: 3px solid grey; 
+    width: 55%; 
+    margin: 1rem auto;
+}
+
+.main div{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 2rem auto;
+}
+
+#red {
+    border-color: red;
+}
+
+#green {
+    border-color: green;
+}
+
+#blue {
+    border-color: blue;
+}
+
+.footer {
+    color:  purple;
+    font-family: "Freeman", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+
+}
